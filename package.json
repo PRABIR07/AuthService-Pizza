@@ -1,0 +1,11 @@
+{
+  "name": "authservice",
+  "version": "1.0.0",
+  "description": "User Management Service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "author": "Prabir <uic.19mca1007@gmail.com>",
+  "license": "ISC"
+}
