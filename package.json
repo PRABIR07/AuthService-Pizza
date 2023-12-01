@@ -4,12 +4,21 @@
   "description": "User Management Service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check":"prettier . --check",
+    "format:fix":"prettier . --write",
+    "lint":"eslint .",
+    "lint:fix":"eslint . --fix"
+
   },
   "author": "Prabir <uic.19mca1007@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.9.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
     "prettier": "3.1.0",
     "typescript": "^5.2.2"
   }
